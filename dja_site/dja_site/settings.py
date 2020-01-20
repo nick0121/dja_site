@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 
 # when collectstatic runs this it will collect all static files and put them here
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'ndt_site/static')
+    os.path.join(BASE_DIR, 'dja_site/static')
 ]
 
 #Media Folder Settings
