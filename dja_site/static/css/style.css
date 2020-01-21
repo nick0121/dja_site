@@ -5,3 +5,15 @@
 body {
     padding-top: 75px;
 }
+
+
+
+/***************** Footer ****************************/
+.footer-background {
+    background-color: #333;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

@@ -1,7 +1,49 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 
 body {
     padding-top: 75px;
+}
+
+
+
+/***************** Footer ****************************/
+.footer-background {
+    background-color: #f8f8f8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-background .container {
+    justify-content: left;
+}
+
+.footer-background ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-background ul li {
+    display: inline;
+    /* padding: 0 0 0 10px; */
+}
+
+.footer-background ul li a {
+    color: #333;
 }
