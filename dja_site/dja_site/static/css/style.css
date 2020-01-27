@@ -8,14 +8,51 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: #413B97;
     text-decoration: none;
 }
 
 
 body {
-    padding-top: 75px;
+    padding-top: 72px;
+    overflow: hidden;
 }
+
+/************ main banner ***********/
+.carousel-item {
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    text-transform: uppercase;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+    font-size: 1.2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    font-size: 1.1rem;
+}
+
+
 
 
 
