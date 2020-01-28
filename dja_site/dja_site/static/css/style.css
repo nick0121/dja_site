@@ -15,7 +15,7 @@ a:hover {
 
 body {
     padding-top: 72px;
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 /************ main banner ***********/
@@ -37,7 +37,7 @@ body {
 .carousel-caption h1 {
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 }
@@ -52,35 +52,75 @@ body {
     font-size: 1.1rem;
 }
 
+/********** Overview section *************/
+.overview {
+    width: 100%;
+    height: 275px;
+}
+
+/* sqaure detail */
+.square {
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: relative;
+    top: 25px;
+    margin: 0 auto;
+}
+
+/*********** about section *************/
+.about {
+    width: 100%;
+    background-color: #f8f8f8;
+    height: 500px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Abel' sans-serif;
+    padding-top: 2.5rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    font-family: 'Open sans' sans-serif;
+}
+
 
 
 
 
 /***************** Footer ****************************/
-.footer-background {
+.footer {
     background-color: #f8f8f8;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer-background .container {
+.footer .container {
     justify-content: left;
 }
 
-.footer-background ul {
+.footer p {
+    font-size: .8rem;
+}
+
+.footer ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-background ul li {
+.footer ul li {
     display: inline;
-    /* padding: 0 0 0 10px; */
 }
 
-.footer-background ul li a {
+.footer ul li a {
     color: #333;
 }
